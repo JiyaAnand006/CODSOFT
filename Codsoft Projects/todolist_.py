@@ -21,14 +21,6 @@ def delete_task():
 
 root = tk.Tk()
 root.title('To-Do List')
-
-background_image = Image.open("download.jpeg")
-background_photo = ImageTk.PhotoImage(background_image)
-background_label = tk.Label(root, image=background_photo)
-background_label.place(x=0, y=0, relwidth=1, relheight=1)
-
-
-
 style = ttk.Style()
 style.configure('Title.TLabel', foreground='purple', font=('Aptos Narrow', 20, 'bold')) 
 title_frame = ttk.Frame(root, style='Title.TFrame')
